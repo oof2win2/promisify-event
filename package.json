@@ -1,6 +1,6 @@
 {
 	"name": "@oof2win2/promisify-event",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A package to help with event promisification and typed events",
 	"main": "dist/index.js",
 	"scripts": {
@@ -8,6 +8,7 @@
 		"build": "tsc --build",
 		"lint": "eslint src/ test/ --fix --ext .ts && prettier --write src/ test/"
 	},
+	"files": ["dist"],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/oof2win2/promisify-event.git"
